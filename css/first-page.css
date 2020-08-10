@@ -96,6 +96,7 @@ header.masthead h1 {
 }
 
 .supporting .supporting-item img {
+  padding: 1rem;
   max-width: 12rem;
   box-shadow: 0 5px 5px 0 #adb5bd;
 }
