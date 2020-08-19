@@ -17,10 +17,6 @@ h6 {
   font-weight: 700;
 }
 
-.overlay-text {
-  top: -1rem;
-}
-
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -99,14 +95,10 @@ header.masthead h1 {
   max-width: 18rem;
 }
 
-.supporting .supporting-item .supporting-item-container {
-  height: 6rem;
-  box-shadow: 0 5px 5px 0 #adb5bd;
-}
-
 .supporting .supporting-item img {
   padding: 1rem;
-  max-height: 6rem;
+  max-width: 12rem;
+  box-shadow: 0 5px 5px 0 #adb5bd;
 }
 
 .call-to-action {
