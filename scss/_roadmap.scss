@@ -1,0 +1,128 @@
+#roadmap {
+}
+
+.roadmap-container {
+  margin-top: 4rem;
+}
+
+.roadmap-accordion {
+  .label {
+    padding-top: 1rem;
+    color: $gray-500;
+  }
+
+  .card {
+    margin: 1rem;
+    border-radius: 0.75rem;
+
+    .card-header {
+      padding: 0.4rem;
+      border-radius: calc(0.75rem - 1px);
+      background-color: $white;
+    }
+
+    .card-body {
+      font-size: 1.2rem;
+    }
+
+    .body-text:last-child {
+      margin-bottom: 0;
+    }
+
+    .footer {
+      background-color: $gray-200;
+      font-style: italic;
+      font-size: 1rem;
+      font-weight: 700;
+      color: $gray-600;
+      border-bottom-left-radius: calc(0.75rem - 1px);
+      border-bottom-right-radius: calc(0.75rem - 1px);
+
+      .icon {
+        margin-right: 1rem;
+        font-size: 1rem;
+      }
+
+      .footer-text {
+        color: $gray-700 !important;
+      }
+    }
+
+    button {
+      font-size: 1.2rem;
+      text-align: left;
+      box-shadow: none;
+      font-weight: 700;
+      color: $gray-700;
+    }
+
+    .icon {
+      color: $gray-700;
+      margin-right: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .toggle-icon {
+      float: right;
+      color: $gray-600;
+      width: 1rem;
+
+      .closed-icon.collapse {
+        display: inline;
+      }
+
+      .closed-icon.collapsing,
+      .closed-icon.collapse.show {
+        display: none;
+      }
+
+      .opened-icon.collapse {
+        display: none;
+      }
+
+      .opened-icon.collapse.show {
+        display: inline;
+      }
+    }
+
+    .date-label {
+      color: $gray-500;
+      font-size: 1rem;
+      float: right;
+      margin-right: 1rem;
+    }
+
+    .badge {
+      color: $white;
+      border-radius: 0.4rem;
+      padding: 0.4rem;
+      margin: 0rem 0.5rem;
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+
+    .badge-cancelled {
+      background-color: $gray-600;
+    }
+
+    .badge-in-research {
+      background-color: $purple;
+    }
+
+    .badge-defined {
+      background-color: $blue;
+    }
+
+    .badge-in-development {
+      background-color: $orange;
+    }
+
+    .badge-request-for-comments {
+      background-color: $cyan;
+    }
+
+    .badge-completed {
+      background-color: $green;
+    }
+  }
+}
