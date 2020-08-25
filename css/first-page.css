@@ -133,3 +133,127 @@ footer.footer {
 .our-goal .our-goal-text {
   font-size: 1.2rem;
 }
+
+.roadmap-container {
+  margin-top: 4rem;
+}
+
+.roadmap-accordion .label {
+  padding-top: 1rem;
+  color: #adb5bd;
+}
+
+.roadmap-accordion .card {
+  margin: 1rem;
+  border-radius: 0.75rem;
+}
+
+.roadmap-accordion .card .card-header {
+  padding: 0.4rem;
+  border-radius: calc(0.75rem - 1px);
+  background-color: #fff;
+}
+
+.roadmap-accordion .card .card-body {
+  font-size: 1.2rem;
+}
+
+.roadmap-accordion .card .body-text:last-child {
+  margin-bottom: 0;
+}
+
+.roadmap-accordion .card .footer {
+  background-color: #e9ecef;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #868e96;
+  border-bottom-left-radius: calc(0.75rem - 1px);
+  border-bottom-right-radius: calc(0.75rem - 1px);
+}
+
+.roadmap-accordion .card .footer .icon {
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.roadmap-accordion .card .footer .footer-text {
+  color: #495057 !important;
+}
+
+.roadmap-accordion .card button {
+  font-size: 1.2rem;
+  text-align: left;
+  box-shadow: none;
+  font-weight: 700;
+  color: #495057;
+}
+
+.roadmap-accordion .card .icon {
+  color: #495057;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.roadmap-accordion .card .toggle-icon {
+  float: right;
+  color: #868e96;
+  width: 1rem;
+}
+
+.roadmap-accordion .card .toggle-icon .closed-icon.collapse {
+  display: inline;
+}
+
+.roadmap-accordion .card .toggle-icon .closed-icon.collapsing,
+.roadmap-accordion .card .toggle-icon .closed-icon.collapse.show {
+  display: none;
+}
+
+.roadmap-accordion .card .toggle-icon .opened-icon.collapse {
+  display: none;
+}
+
+.roadmap-accordion .card .toggle-icon .opened-icon.collapse.show {
+  display: inline;
+}
+
+.roadmap-accordion .card .date-label {
+  color: #adb5bd;
+  font-size: 1rem;
+  float: right;
+  margin-right: 1rem;
+}
+
+.roadmap-accordion .card .badge {
+  color: #fff;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  margin: 0rem 0.5rem;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.roadmap-accordion .card .badge-cancelled {
+  background-color: #868e96;
+}
+
+.roadmap-accordion .card .badge-in-research {
+  background-color: #6f42c1;
+}
+
+.roadmap-accordion .card .badge-defined {
+  background-color: #007bff;
+}
+
+.roadmap-accordion .card .badge-in-development {
+  background-color: #fd7e14;
+}
+
+.roadmap-accordion .card .badge-request-for-comments {
+  background-color: #17a2b8;
+}
+
+.roadmap-accordion .card .badge-completed {
+  background-color: #28a745;
+}
