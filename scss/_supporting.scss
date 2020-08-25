@@ -1,0 +1,12 @@
+.supporting {
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+  .supporting-item {
+    max-width: 18rem;
+    img {
+      padding: 1rem;
+      max-width: 12rem;
+      box-shadow: 0 5px 5px 0 $gray-500;
+    }
+  }
+}
